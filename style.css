@@ -1,0 +1,54 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+div#content {
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#openButton {
+    align-self: flex-start;
+    padding: 9px 9px 3px 9px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color .3s;
+}
+
+#openButton:hover {
+    background-color: mistyrose;
+}
+
+#title {
+    align-self: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 90px;
+}
+
+#subtitle {
+    align-self: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+}
+
+.svg-icon {
+    width: 1em;
+    height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+    fill: black;
+}
+
+.svg-icon circle {
+    stroke: black;
+    stroke-width: 1;
+}
