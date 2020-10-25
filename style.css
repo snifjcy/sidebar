@@ -48,6 +48,17 @@ div#content {
     display: flex;
     flex-direction: column;
     transform: translateX(-100%);
+    transition: transform .50s ease;
+}
+
+#sidebar.open {
+    transform: none !important;
+}
+
+#closeText {
+    align-self: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
 }
 
 #closeButton {
@@ -59,7 +70,7 @@ div#content {
     cursor: pointer;
 }
 
-#openButton:hover {
+#closeButton:hover {
     background-color: lightcyan;
 }
 
