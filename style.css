@@ -16,9 +16,10 @@ div#content {
     align-self: flex-start;
     padding: 9px 9px 3px 9px;
     border: 1px solid black;
-    border-radius: 5px;
-    margin: 5px;
+    border-radius: 10px;
+    margin: 15px;
     transition: background-color .3s;
+    cursor: pointer;
 }
 
 #openButton:hover {
@@ -35,6 +36,31 @@ div#content {
     align-self: center;
     font-family: 'Quicksand', sans-serif;
     font-size: 30px;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 400px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-100%);
+}
+
+#closeButton {
+    align-self: flex-end;
+    padding: 9px 9px 3px 9px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+#openButton:hover {
+    background-color: lightcyan;
 }
 
 .svg-icon {
