@@ -1,2 +1,2 @@
-# navbar
-Just a clickable navbar
+# sidebar
+An animated sidebar
